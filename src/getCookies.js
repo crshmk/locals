@@ -5,7 +5,7 @@
 */
 const split = by => str => str.split(by)
 
-const getCookies = () =>
+export const getCookies = () =>
   document.cookie.split('; ')
     .map(kv => kv.split('='))
     .reduce((acc, [k, v]) => ({...acc, [k]: v}), {})

@@ -24,7 +24,7 @@ const unsetItem = k => {
   localStorage.removeItem(k)
 }
 
-const localStorageUtil = {
+export const localStorageUtil = {
   getItem,
   setItem,
   unsetItem
