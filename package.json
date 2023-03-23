@@ -1,7 +1,7 @@
 {
-  "name": "rollup-boilerplate",
+  "name": "locals",
   "version": "1.0.0",
-  "description": "basic rollup setup",
+  "description": "basic daily js utils",
   "main": "./dist/utils.min.js",
   "type": "commonjs",
   "scripts": {

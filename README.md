@@ -1,1 +1,1 @@
-Basic rollup setup for js only 
+basic js utils
