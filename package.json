@@ -2,7 +2,7 @@
   "name": "locals",
   "version": "1.0.0",
   "description": "basic daily js utils",
-  "main": "./dist/utils.min.js",
+  "main": "./dist/locals.min.js",
   "type": "commonjs",
   "scripts": {
     "build": "rollup -c",
