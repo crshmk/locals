@@ -2,6 +2,9 @@ basic everyday js utils; not much to see in this repo
 
 i have some interesting js utils [here](https://github.com/crshmk/utils)
 
+## Client 
+
+---
 
 ### getCookies
 
@@ -28,14 +31,6 @@ storage.getItem('user')
 storage.removeItem('user')
 ```
 
-### log 
-
-> a better console.log for Node using util.inspect
-
-```javascript 
-const logDepth = 3
-log(nestedObject, logDepth)
-```
 
 ### scrollToSelector
 
@@ -74,4 +69,21 @@ makeMonthDayYearLabel(timestamp)
 ```javascript
 ucFirst('abcDe')
 // 'AbcDe'
+```
+## Server 
+
+---
+### log 
+
+> a better console.log for Node using util.inspect
+
+```javascript 
+const logDepth = 3
+log(nestedObject, logDepth)
+```
+
+### writeTempFile
+
+```javascript 
+const filePath = await writeTempFile(fileName,  dataUrl, 'base64')
 ```
