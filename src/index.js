@@ -1,5 +1,5 @@
 export { getCookies } from './getCookies'
 export { isEmail } from './isEmail'
-export { localStorageUtil } from '.localStorageUtil'
+export { localStorageUtil } from './localStorageUtil'
 export { log } from './log'
 export { ucFirst } from './ucFirst'
