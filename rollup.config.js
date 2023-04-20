@@ -21,5 +21,6 @@ export default {
     commonjs(),
     uglify()
   ],
-  external: ['node:fs/promises', 'node:os', 'ramda', 'react']
+  // todo find wildcard syntax e.g. 'node:**'
+  external: ['node:fs/promises', 'node:os', 'node:path', 'ramda', 'react']
 }
