@@ -70,6 +70,14 @@ makeMonthDayYearLabel(timestamp)
 ucFirst('abcDe')
 // 'AbcDe'
 ```
+### [useInterval](https://overreacted.io/making-setinterval-declarative-with-react-hooks)
+
+```javascript
+ useInterval(() => {
+    ...
+  }, 1000);
+```
+
 ## Server 
 
 ---
