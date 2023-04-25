@@ -1,7 +1,7 @@
 // Dan's idea https://overreacted.io/making-setinterval-declarative-with-react-hooks/
 import React, { useEffect, useRef, useState } from 'react'
 
-function useInterval(callback, delay) {
+export function useInterval(callback, delay) {
   const savedCallback = useRef()
 
   useEffect(() => {
@@ -19,4 +19,3 @@ function useInterval(callback, delay) {
   }, [delay])
 }
 
-export default useInterval
